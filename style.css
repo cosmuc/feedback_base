@@ -68,13 +68,39 @@ body{
     border: none;
     color: var(--medium-gray);
     background-color:var(--v-dark-blue);
+
+    transition: all ease-in-out 0.3s;
 }
 
 .notas{
     display: flex;
     justify-content: space-between;
+    margin-top: 32px;
 }
 
 .notas button:holver{
+    color: var(--white);
+    background-color: var(--orange);
+    cursor: pointer;
+}
 
+.card > button{
+    width: 100%;
+    padding: 13px;
+    background-color: var(--orange);
+    border: none;
+    border-radius: 22px;
+
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--white);
+}
+
+.card > button:hover{
+    color: var(--orange);
+    background-color: var(--white);
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
 }
