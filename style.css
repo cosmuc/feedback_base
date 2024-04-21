@@ -43,6 +43,7 @@ body{
     color: var(--light-gray);
     font-size: 15px;
     line-height: 24px;
+    margin-bottom: 24px;
 }
 
 .estrela{
@@ -57,3 +58,23 @@ body{
     margin-bottom: 30px;
 }
 
+.notas button{
+    width: 51px;
+    height: 51px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    border-radius: 50%;
+    border: none;
+    color: var(--medium-gray);
+    background-color:var(--v-dark-blue);
+}
+
+.notas{
+    display: flex;
+    justify-content: space-between;
+}
+
+.notas button:holver{
+
+}
