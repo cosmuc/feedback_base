@@ -28,8 +28,9 @@ body{
 .card{
     background: var(--black-gradient);
     max-width: 412px;
-    padding: 32px;
+    padding: 45px 32px;
     border-radius: 30px;
+    text-align: center;
 }
 
 .card h1{
@@ -42,5 +43,20 @@ body{
     color: var(--light-gray);
     font-size: 15px;
     line-height: 24px;
+    
+
+.card img{
+    margin-bottom: 32px;
+}
+
+.card .p_nota{
+    background-color: var(--dark-blue);
+    width: fit-content;
+    margin-inline: auto;
+    border-radius: 22px;
+    padding: 4px 18px;
+
+    font-size: 15px;
     margin-bottom: 24px;
+    color: var(--orange);
 }
